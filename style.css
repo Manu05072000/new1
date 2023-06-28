@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;1,100;1,200;1,300;1,400;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@1,200&family=Tilt+Warp&display=swap');
 
 :root{
-    --orange:#09ff00;
+    --orange:#6246ea;
     --black:#130f40;
-    --light-color:#666;
+    --light-color:#2b2c34;
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
     --border:.2rem solid rgba(0,0,0,.1);
     --outline:.1rem solid rgba(0,0,0,.1);
@@ -25,7 +25,7 @@ html{
     scroll-padding-top:7rem;
 }
 body{
-    background-color:#eee;
+    background-color:#b8c1ec;
     
 
 }
@@ -69,7 +69,7 @@ section{
     align-items: center;
     justify-content:space-between;
     padding: 2rem 9%;
-    background-color: #fdfdf8;
+    background-color: #b8c1ec;
     box-shadow: var(--box-shadow); 
 }
 .header .logo{
@@ -116,6 +116,7 @@ section{
     display: flex;
     align-items: center;
     box-shadow: var(--box-shadow);
+    padding-right: 20px;
 }
 .header .search-form .active{
     right: 2rem;
