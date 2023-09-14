@@ -60,7 +60,10 @@ section{
     background: var(--orange);
     color: #fff;
 }
-
+.multiple-text{
+    font-size:2rem;
+}
+    
 .header{
     position:fixed;
     top: 0; left: 0;right: 0;
