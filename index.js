@@ -85,4 +85,10 @@ var swiper = new Swiper(".product-slider", {
       },
     },
   });
-
+const typed = new Typed('.multiple-text',{
+    strings: ['We deliver directly from the farmers to your doorstep, Small change will change the world!!!'],
+    typeSpeed:100,
+    backspeed:100,
+    backDelay:1000,
+    loop:true
+});
